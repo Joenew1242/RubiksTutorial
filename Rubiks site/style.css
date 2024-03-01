@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 14px;
+    border-bottom: 2px solid black;
+    background-color:#36454F
+    
+}
+
+h1{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5em;
+    padding: 32px;
+
+}
+
+main{ 
+    padding: 24px;
+    font-family: "Anta", sans-serif;      
+
+}
+
+div{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    align-items:center ;
+    padding: 24px;
+    gap: 32px;
+    background-color:#36454F
+    
+    
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: white;
+
+}
+
+.footerIcons{
+    font-size: 3em;
+    cursor: pointer;
+
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding-left: 20%;
+    padding-right: 15%;
+}
+
+.intoText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color:#36454F;
+    width: 700px; height: 354px;
+    padding: 24px;
+    
+}
+
+
+
+.midP{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.headerLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    padding-top: 48px;
+    gap: 24px;
+}
+
+.statList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.method{
+    display: flex;
+    align-items: center;
+    padding-top: 48px;
+    padding-left: 48px;
+}
+
+.methodPics{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8em;
+    
+}
+
+.evenMethodPics{
+    padding-left: 350px;
+}
+
+
